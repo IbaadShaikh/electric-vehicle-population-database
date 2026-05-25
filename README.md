@@ -3,7 +3,7 @@
 ## Overview
 This project is a relational SQL database designed to analyze Electric Vehicle (EV) population data in Washington State. The database focuses on Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) registered through the Washington State Department of Licensing (DOL).
 
-The project was created as part of INST 327: Database Design and Modeling and demonstrates database normalization, relational schema design, SQL querying, and entity relationship modeling.
+Developed as part of INST 327: Database Design and Modeling at the University of Maryland, this project demonstrates database normalization, relational schema design, SQL querying, and entity relationship modeling using real-world EV population data.
 
 ---
 
@@ -30,18 +30,18 @@ The project was created as part of INST 327: Database Design and Modeling and de
 ## Database Structure
 The database contains 8 tables:
 
-1. `make`
-2. `model`
-3. `battery`
-4. `cars`
-5. `locations`
-6. `cars_locations`
-7. `utilities`
-8. `cars_locations_utilities`
+- `make`
+- `model`
+- `battery`
+- `cars`
+- `locations`
+- `cars_locations`
+- `utilities`
+- `cars_locations_utilities`
 
 The schema supports:
 - Many-to-many relationships
-- Vehicle/location tracking
+- Vehicle and location tracking
 - Utility provider mapping
 - EV registration analytics
 
@@ -68,11 +68,14 @@ The schema supports:
 
 ---
 
-## Files Included
-- `schema.sql` → Database creation script
-- `queries.sql` → SQL analytical queries
-- `section101team4_erd.mwb` → MySQL Workbench ERD model
-- `EV_Final_Project_Report.pdf` → Full project documentation and ERD
+## Repository Structure
+
+```text
+schema/   → Database creation scripts
+queries/  → SQL analytical queries
+erd/      → ERD model files
+report/   → Final project documentation
+```
 
 ---
 
