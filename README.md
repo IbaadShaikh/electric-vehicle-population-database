@@ -86,6 +86,10 @@ https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/ab
 
 ---
 
+<img width="1198" height="686" alt="image" src="https://github.com/user-attachments/assets/2a00b462-ab6a-4fb7-80c7-100f4985d130" />
+
+---
+
 ## Future Improvements
 - Expand dataset size for improved analytics
 - Add support for additional EV types
